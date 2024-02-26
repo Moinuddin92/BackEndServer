@@ -5,6 +5,7 @@ var UserSchema = new mongoose.Schema({
     username: String,
 
     email: String,
+    token: String,
 
 }, { timestamps: true });
 
